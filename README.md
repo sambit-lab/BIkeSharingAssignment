@@ -1,5 +1,8 @@
 # Project Name
-> Outline a brief description of your project.
+> Boom Bikes -Bike Sharing 
+Boom-Bikes company reached out to a consulkting compamny to understand the factors affecting the demand for these shared bikes in the American market. The company wants to know:
+ -Which variables are significant in predicting the demand for shared bikes.
+ -How well those variables describe the bike demands
 
 
 ## Table of Contents
@@ -11,34 +14,38 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+  -Background: A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Conclusion 1 : Data Understanding 
+In this section, we have analysed the given dataset w.r.to it's structure. In the process, we have changed the data types of few columns and also changed some of the values based on Data Dictionary.
+- Conclusion 2 : Data Visualization 
+In this section, we have looked at the actual data content.We plotted few distribution plots and a correleation Matrix and heatmap for numerical varibales. We also removed one of the features "atemp" as it was highly correlated with the another varibales "temp".
+- Conclusion 3 : Data Preparation
+The main task done in this section are:
+
+  -create the respective dummy variables
+  -delete the irrelevant data
+- Conclusion 4 : Model Building and Evaluation
+In this section, we build our first model considering all the variables and then we made an informed choice based on VIF and p-values and finally made our baseline model with 7 variables. We also plotted the error term to check if they are normally distributed. Our regression line also looks pretty clustered around the central line.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python
+- SKLearn
+- Matplot and seaborn
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by Machine Learning Curriculum
+- References : https://learn.upgrad.com/ 
+
 
 
 ## Contact
