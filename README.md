@@ -49,7 +49,7 @@ Give credit here.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@sambit-lab] - feel free to contact me!
 
 
 <!-- Optional -->
